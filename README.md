@@ -69,10 +69,15 @@ Exemplo de Saída (Markdown)
 ```
 
 ## 🛠️ Tecnologias Usadas
+
 **Python**: Linguagem principal.
+
 **OpenAI GPT**: Para gerar a documentação.
+
 **Markdown/HTML**: Formatos de saída.
+
 **Docker**: Para facilitar a execução em qualquer ambiente.
+
 
 ## 📂 Estrutura do Projeto
 
