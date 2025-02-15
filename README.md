@@ -61,10 +61,9 @@ Exemplo de Saída (Markdown)
 
 - `a` (int): O primeiro número.
 - `b` (int): O segundo número.
-```
 
 ### Retorno:
-```
+
 - `int`: A soma de `a` e `b`.
 ```
 
