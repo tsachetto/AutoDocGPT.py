@@ -89,16 +89,16 @@ e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo d
 ```
 AutoDocGPT/
 ├── src/
-│   ├── autodocgpt.py          # Código principal (Feito)
+│   ├── autodocgpt.py          # Código principal (Concluído)
 │   ├── cli.py                 # Interface de linha de comando (Em construção)
 │   └── utils/                 # Funções auxiliares (Breve)
 ├── tests/                     # Testes unitários (Breve)
 ├── examples/                  # Exemplos de código para testar (Breve)
 ├── docs/                      # Documentação do projeto (Breve)
 ├── Dockerfile                 # Configuração do Docker (Breve)
-├── requirements.txt           # Dependências do projeto (Feito)
-├── LICENSE                    # Licença CC0 (Feito)
-└── README.md                  # Este arquivo (Feito)
+├── requirements.txt           # Dependências do projeto (Concluído)
+├── LICENSE                    # Licença CC0 (Concluído)
+└── README.md                  # Este arquivo (Concluído)
 ```
 
 ## 📄 Licença
