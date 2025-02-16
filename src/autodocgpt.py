@@ -64,7 +64,7 @@ def main():
             ],
             max_tokens=2500
         )
-        print(f"{base_prompt}\n{prompt_final}")
+        #print(f"{base_prompt}\n{prompt_final}")
     except Exception as e:
         print(f"AutoDocGPT: Erro na API OpenAI: {e}")
         exit(1)
