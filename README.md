@@ -55,6 +55,17 @@ python autodocgpt.py script_a_ser_analisado.py script_analisado_output.py "Dica:
 
 Apenas os dois primeiros argumentos (script autodocgpt.py e arquivo de entrada) são obrigatórios!
 
+### Guia
+
+Via CMD, chame o python,
+
+chame o script autodocgpt.py
+
+chame o código que deseja analisar
+
+como opcional, informe o nome do arquivo de saída
+
+e uma dica para contextualizar o modelo sobre qual tipo de código ele estará analisadno.
 
 ## 🛠️ Tecnologias Usadas
 
