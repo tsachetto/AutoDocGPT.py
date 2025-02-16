@@ -63,9 +63,9 @@ chame o script autodocgpt.py
 
 chame o código que deseja analisar
 
-como opcional, informe o nome do arquivo de saída
+como __opcional__, informe o nome do arquivo de saída
 
-e uma dica para contextualizar o modelo sobre qual tipo de código ele estará analisadno.
+e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo de código ele estará analisadno.
 
 ## 🛠️ Tecnologias Usadas
 
