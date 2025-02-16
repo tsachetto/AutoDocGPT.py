@@ -45,6 +45,14 @@ OPENAI_API_KEY=sua_chave_aqui
 
 Uma excelente opção seria criar uma variável de ambiente OPENAI_API_KEY e informar sua chave de API.
 
+**Uso Direto via Curl:**
+
+Instale todas as dependências e rode no CMD assim:
+
+```
+curl -s https://raw.githubusercontent.com/tsachetto/AutoDocGPT.py/main/src/autodocgpt.py | python - seu_script.py
+```
+
 **Uso Básico:**
 
 Execute o script passando o arquivo de código que deseja documentar:
