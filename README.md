@@ -8,7 +8,7 @@
 **AutoDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preservando toda a sua lógca, mas com uma nova e robusta documentação comentada ao longo do código.
 Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>documentados</ins>!
 
-[![Vídeo demonstrativo](https://img.youtube.com/vi/A9L_5BKEiYs/0.jpg)](https://www.youtube.com/watch?v=A9L_5BKEiYs)
+https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
 
 ## ✨ Funcionalidades
 **Geração automática de documentação**: Analisa funções, classes e métodos e gera descrições claras.
