@@ -1,9 +1,7 @@
 # AutoDocGPT 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-
 ![License](https://img.shields.io/badge/license-CC0-blue)
-
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
 
 
@@ -105,7 +103,6 @@ Este projeto está licenciado sob a Creative Commons Zero (CC0). Isso significa 
 Desenvolvido por Thomaz Sachetto Silva.
 
 Powered by OpenAI 🧠.
-![OpenAI]([https://img.shields.io/badge/Powered%20by-OpenAI-green](https://avatars.githubusercontent.com/u/14957082?s=200&v=4))
 
 ## 📬 Contato
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
