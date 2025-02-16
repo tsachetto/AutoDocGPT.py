@@ -5,7 +5,7 @@
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
 
 
-**AutoDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preserando toda sua lógca mas com uma nova e robusta documentação comentada ao longo do código.
+**AutoDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preservando toda a sua lógca, mas com uma nova e robusta documentação comentada ao longo do código.
 Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>documentados</ins>!
 
 ## ✨ Funcionalidades
