@@ -20,21 +20,21 @@ def main():
     # Lê o código fonte com limite de caracteres
     try:
         with open(args.input_script, 'r', encoding='utf-8') as f:
-            code_content = f.read(10000)
+            code_content = f.read(50000)
     except Exception as e:
         print(f"Erro ao ler arquivo de entrada: {e}")
         exit(1)
 
     # Configura o prompt
-    system_role = "Você é um engenheiro de software experiente que escreve documentação clara e objetiva de códigos."
-    base_prompt = "Reescreva integralmente o código fornecido, ignorando a documentação atual e recriando uma nova documentação perfeita adequada a ele. Complementando, crie uma introdução em forma de comentário após a importação das libs sobre o código analisado, sua funcionalidade, objetivos e saidas.\n"
+    system_role = "Você é um engenheiro de software experiente e criativo que escreve documentação clara e objetiva em códigos."
+    base_prompt = "Identifique a linguagem do código fornecido. Analise-o e recrie uma nova documentação adequada comentando em cada etapa identificando suas funcionalidades, inclusive explicando cada condicionais (if etc), loops (for, when etc) ou sub processos. Complementando, crie uma introdução em forma de comentário explicando a finalidade do código analisado em até 100 palavras com tabulação e quebra de linha. Importante: retornar o código integral com a apenas com a nova documentaçao sobreposta, sem alterar a programação. Tudo em PT-BR.\n"
     
     if args.dicas:
         prompt_final = f"Como dica sobre o código temos: {args.dicas}\nInclua comentários relevantes em cada parte."
     else:
-        prompt_final = "Analise o código e detecte sua finalidade para criar comentários adequados.\n"
+        prompt_final = "Pense nos programadores que irão lidar com esse código depois.\n"
     
-    prompt_final += "A saída deve ser apenas o código comentado, sem texto adicional ou formatação Markdown."
+    prompt_final += "A saída deve ser apenas o código orignal com os novos comentários da documentação."
 
     # Monta a requisição para OpenAI
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -45,7 +45,7 @@ def main():
                 {"role": "system", "content": system_role},
                 {"role": "user", "content": f"{base_prompt}{prompt_final}\n\nCódigo:\n{code_content}"}
             ],
-            max_tokens=2000
+            max_tokens=2500
         )
     except Exception as e:
         print(f"Erro na API OpenAI: {e}")
