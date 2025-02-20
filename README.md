@@ -15,7 +15,8 @@
 
 **Formatos de saída**: Seu código sai intacto e com uma nova e robusta camada de comentários.
 
-**CLI**: Sim ele está pronto para isso, chame o python e user argumentos como {codedocgpt.py}* {seu_script.py}* {sei_script_nome_de_saida.py} {"alguma dica ou sugestão"}
+**CLI**: Sim ele está pronto para isso!
+Chame o python e utilize argumentos como {codedocgpt.py}* {seu_script.py}* {sei_script_nome_de_saida.py} {"alguma dica ou sugestão"}
 
 Apenas os argumentos com (*) são obrigatórios.
 
