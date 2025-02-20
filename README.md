@@ -1,11 +1,11 @@
-# AutoDocGPT 🚀
+# CodeDocGPT 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-CC0-blue)
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
 
 
-**AutoDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preservando toda a sua lógca, mas com uma nova e robusta documentação comentada ao longo do código.
+**CodeDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preservando toda a sua lógca, mas com uma nova e robusta documentação comentada ao longo do código.
 Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>documentados</ins>!
 
 https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
@@ -27,8 +27,8 @@ https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
 **Clone o repositório**:
 
 ```
-git clone https://github.com/seu-usuario/AutoDocGPT.git
-cd AutoDocGPT
+git clone https://github.com/seu-usuario/CodeDocGPT.git
+cd CodeDocGPT
 ```
 
 **Instale as dependências**:
@@ -52,7 +52,7 @@ Uma excelente opção seria criar uma variável de ambiente OPENAI_API_KEY e inf
 Instale todas as dependências e rode no CMD assim:
 
 ```
-curl -s https://raw.githubusercontent.com/tsachetto/AutoDocGPT.py/main/src/autodocgpt.py | python - seu_script.py
+curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/main/src/codedocgpt.py | python - seu_script.py
 ```
 
 **Uso Básico:**
@@ -60,16 +60,16 @@ curl -s https://raw.githubusercontent.com/tsachetto/AutoDocGPT.py/main/src/autod
 Execute o script passando o arquivo de código que deseja documentar:
 
 ```
-python autodocgpt.py script_a_ser_analisado.py script_analisado_output.py "Dica: Este é um código que realiza cálculos sobre x asssunto!"
+python codedocgpt.py script_a_ser_analisado.py script_analisado_output.py "Dica: Este é um código que realiza cálculos sobre x asssunto!"
 ```
 
-Apenas os dois primeiros argumentos (script autodocgpt.py e arquivo de entrada) são obrigatórios!
+Apenas os dois primeiros argumentos (script codedocgpt.py e arquivo de entrada) são obrigatórios!
 
 ### Guia
 
 Via CMD, chame o python,
 
-chame o script autodocgpt.py
+chame o script codedocgpt.py
 
 chame o código que deseja analisar
 
@@ -89,7 +89,7 @@ e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo d
 ```
 AutoDocGPT/
 ├── src/
-│   ├── autodocgpt.py          # Código principal (Concluído)
+│   ├── codedocgpt.py          # Código principal (Concluído)
 │   ├── cli.py                 # Interface de linha de comando (Em construção)
 │   └── utils/                 # Funções auxiliares (Breve)
 ├── tests/                     # Testes unitários (Breve)
