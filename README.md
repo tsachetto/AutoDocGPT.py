@@ -5,9 +5,7 @@
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
 
 
-**CodeDocGPT** é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar comentários claros, robustos e explicativos ao longo de um código, tornando sua leitura e entendimento muito mais acessível e facilitando na gestão de melhorias. Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>explicados</ins>!
-
-https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
+**CodeDocGPT** é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar comentários claros e explicativos ao longo de um código, tornando sua leitura e entendimento muito mais acessível, além de facilitar na gestão de melhorias do código. Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e tornar seus projetos bem <ins>explicados</ins>!
 
 ## ✨ Funcionalidades
 
