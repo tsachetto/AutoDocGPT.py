@@ -13,7 +13,11 @@
 
 **Suporte a múltiplas linguagens**: Funciona com Python, JavaScript e mais...
 
-**Formatos de saída**: Seu código sai intacro, acrescido de uma nova e robusta cama de comentários a cada passagem importante.
+**Formatos de saída**: Seu código sai intacto e com uma nova e robusta camada de comentários.
+
+**CLI**: Sim ele está pronto para isso, chame o python e user argumentos como {codedocgpt.py}* {seu_script.py}* {sei_script_nome_de_saida.py} {"alguma dica ou sugestão"}
+
+Apenas os argumentos com (*) são obrigatórios.
 
 **Powered by OpenAI**: Utiliza modelos avançados de IA para criar documentação de alta qualidade.
 
