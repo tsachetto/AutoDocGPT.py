@@ -1,0 +1,8 @@
+# Biblioteca para interagir com a API da OpenAI
+openai>=0.27.0
+
+# Biblioteca para converter Markdown para HTML (caso o usuário opte por esse formato)
+markdown>=3.3.0
+
+# Biblioteca para carregar variáveis de ambiente a partir do arquivo .env
+python-dotenv>=0.21.0
