@@ -11,13 +11,11 @@ https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
 
 ## ✨ Funcionalidades
 
-**Geração automática de documentação**: Analisa funções, classes e métodos e gera descrições claras.
+**Geração automática de comentários**: Analisa funções, classes e métodos e gera descrições claras.
 
-**Suporte a múltiplas linguagens**: Funciona com Python, JavaScript e mais (em breve!).
+**Suporte a múltiplas linguagens**: Funciona com Python, JavaScript e mais...
 
-**Formatos de saída**: O código sai intacro, acrescido de uma nova e robusta documentação comentada.
-
-**Interface simples**: Fácil de usar via linha de comando (CLI).
+**Formatos de saída**: Seu código sai intacro, acrescido de uma nova e robusta cama de comentários a cada passagem importante.
 
 **Powered by OpenAI**: Utiliza modelos avançados de IA para criar documentação de alta qualidade.
 
