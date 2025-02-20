@@ -44,8 +44,9 @@ Uma excelente opção é criar uma variável de ambiente OPENAI_API_KEY e inform
 Instale todas as dependências e rode direto via linha de comando (CMD):
 
 ```
-curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/main/src/codedocgpt.py | python - seu_script.py
+curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/refs/heads/main/src/codedocgpt.py | python - script.py
 ```
+Altamente recomendável!
 
 **Uso Básico:**
 
