@@ -5,12 +5,12 @@
 ![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
 
 
-**CodeDocGPT** é uma ferramenta open-source que usa __Inteligência Artificial__ para gerar documentação automática de código. Basta passar seu script, e ele retornará um novo script preservando toda a sua lógca, mas com uma nova e robusta documentação comentada ao longo do código.
-Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>documentados</ins>!
+**CodeDocGPT** é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar comentários claros, robustos e explicativos ao longo de um código, tornando sua leitura e entendimento muito mais acessível e facilitando na gestão de melhorias. Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e manter seus projetos bem <ins>explicados</ins>!
 
 https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
 
 ## ✨ Funcionalidades
+
 **Geração automática de documentação**: Analisa funções, classes e métodos e gera descrições claras.
 
 **Suporte a múltiplas linguagens**: Funciona com Python, JavaScript e mais (em breve!).
@@ -22,14 +22,8 @@ https://github.com/user-attachments/assets/03df248e-f782-4c14-8462-9e5c8ca5c3a6
 **Powered by OpenAI**: Utiliza modelos avançados de IA para criar documentação de alta qualidade.
 
 ## 🚀 Como Usar
+
 **Instalação**
-
-**Clone o repositório**:
-
-```
-git clone https://github.com/seu-usuario/CodeDocGPT.git
-cd CodeDocGPT
-```
 
 **Instale as dependências**:
 
@@ -45,11 +39,11 @@ Crie um arquivo .env na raiz do projeto e adicione sua chave:
 OPENAI_API_KEY=sua_chave_aqui
 ```
 
-Uma excelente opção seria criar uma variável de ambiente OPENAI_API_KEY e informar sua chave de API.
+Uma excelente opção é criar uma variável de ambiente OPENAI_API_KEY e informar sua chave de API.
 
 **Uso Direto via Curl:**
 
-Instale todas as dependências e rode no CMD assim:
+Instale todas as dependências e rode direto via linha de comando (CMD):
 
 ```
 curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/main/src/codedocgpt.py | python - seu_script.py
@@ -57,7 +51,7 @@ curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/main/src/codedocg
 
 **Uso Básico:**
 
-Execute o script passando o arquivo de código que deseja documentar:
+Execute o CodeDocGPT passando o nome do arquivo do seu código que deseja documentar:
 
 ```
 python codedocgpt.py script_a_ser_analisado.py script_analisado_output.py "Dica: Este é um código que realiza cálculos sobre x asssunto!"
@@ -67,7 +61,7 @@ Apenas os dois primeiros argumentos (script codedocgpt.py e arquivo de entrada) 
 
 ### Guia
 
-Via CMD, chame o python,
+Resumindo, via CMD, chame o python,
 
 chame o script codedocgpt.py
 
@@ -83,6 +77,7 @@ e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo d
 
 **OpenAI GPT**: Para gerar a documentação.
 
+**GitHub**: Hospedagem do código.
 
 ## 📂 Estrutura do Projeto
 
@@ -90,7 +85,7 @@ e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo d
 AutoDocGPT/
 ├── src/
 │   ├── codedocgpt.py          # Código principal (Concluído)
-│   ├── cli.py                 # Interface de linha de comando (Em construção)
+│   ├── cli.py                 # Interface de linha de comando (Breve)
 │   └── utils/                 # Funções auxiliares (Breve)
 ├── tests/                     # Testes unitários (Breve)
 ├── examples/                  # Exemplos de código para testar (Breve)
@@ -102,16 +97,19 @@ AutoDocGPT/
 ```
 
 ## 📄 Licença
+
 Este projeto está licenciado sob a Creative Commons Zero (CC0).
 
 Isso significa que você pode usar, modificar e distribuir o código sem restrições. Para mais detalhes, veja o arquivo LICENSE.
 
 ## 👏 Créditos
+
 Desenvolvido por Thomaz Sachetto Silva.
 
 Powered by OpenAI 🧠.
 
 ## 📬 Contato
+
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
 **Email:** thomazsachetto@gmail.com
