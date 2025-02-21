@@ -13,7 +13,7 @@
 
 **Geração automática de comentários**: Analisa funções, classes e métodos e gera descrições claras.
 
-**Suporte a múltiplas linguagens**: Funciona com Python, JavaScript e mais...
+**Suporte a múltiplas linguagens**: Funciona com quase todas as linguagems existentes...
 
 **Formatos de saída**: Seu código sai intacto e com uma nova e robusta camada de comentários.
 
