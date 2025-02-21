@@ -91,8 +91,9 @@ AutoDocGPT/
 │   ├── codedocgpt.py          # Código principal (Concluído)
 ├── examples/                  # Exemplos de código para testar (Breve)
 ├── docs/                      # Documentação do projeto (Breve)
-│   ├── doc.md                 # Código principal (Concluído)
+│   ├── doc.md                 # Pequena documentação do Código principal (Concluído)
 ├── requirements.txt           # Dependências do projeto (Concluído)
+├── .gitgnore                  # Gitgnore (Concluído)
 ├── LICENSE                    # Licença CC0 (Concluído)
 └── README.md                  # Este arquivo (Concluído)
 ```
