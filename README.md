@@ -89,12 +89,9 @@ e/ou uma dica entre aspas duplas, para contextualizar o modelo sobre qual tipo d
 AutoDocGPT/
 ├── src/
 │   ├── codedocgpt.py          # Código principal (Concluído)
-│   ├── cli.py                 # Interface de linha de comando (Breve)
-│   └── utils/                 # Funções auxiliares (Breve)
-├── tests/                     # Testes unitários (Breve)
 ├── examples/                  # Exemplos de código para testar (Breve)
 ├── docs/                      # Documentação do projeto (Breve)
-├── Dockerfile                 # Configuração do Docker (Breve)
+│   ├── doc.md                 # Código principal (Concluído)
 ├── requirements.txt           # Dependências do projeto (Concluído)
 ├── LICENSE                    # Licença CC0 (Concluído)
 └── README.md                  # Este arquivo (Concluído)
