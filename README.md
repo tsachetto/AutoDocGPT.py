@@ -7,6 +7,8 @@
 
 **CodeDocGPT** é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar comentários claros e explicativos ao longo de um código, tornando sua leitura e entendimento muito mais acessível, além de facilitar na gestão de melhorias do código. Perfeito para desenvolvedores ou equipes de desenvolvimento que queiram economizar tempo e tornar seus projetos bem <ins>explicados</ins>!
 
+**Importante:** Priorizei o uso da engine gpt-4o-mini por ser a mais barata e bastante veloz! ⭐
+
 ## ✨ Funcionalidades
 
 **Geração automática de comentários**: Analisa funções, classes e métodos e gera descrições claras.
