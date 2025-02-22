@@ -48,17 +48,17 @@ def main():
         print(f"Erro ao ler arquivo de entrada: {e}")
         exit(1)
 
-    system_role = "Você é um engenheiro de software experiente e criativo que escreve comentários ricos e explicativos em códigos."
+    system_role = "Você é um experiente engenheiro de software que escreve comentários ricos e explicativos sempre em pt-br."
 
     base_prompt = """Identifique a linguagem de programação do código fornecido, analise o código inteiro e recrie novos comentários 
-    curtos e explicativos para cada sub-etapa do código. Sempre inicie o código comentando uma breve explicação de sua finalidade
-    para qualquer leigo entender, tudo em pt-br, sempre após importações ou declarações iniciais. Altere somente os comentários
-    do código, mantendo a lógica e código original sempre intáctos."""
+    curtos e explicativos para cada sub-etapa do código. Inicie o código comentando -após as importações ou declarações 
+    iniciais-  uma breve explicação de sua finalidade geral para leigos entenderem. Altere somente os comentários
+    do código, mantendo a lógica, sintaxe e escrita geral do código originais e sempre intactas."""
     
     if dicas.strip():
-        prompt_final = f" Como dica sobre o código, temos '{dicas}'. Pense nos programadores que irão lidar com esse código no futuro, sendo: "
+        prompt_final = f" Como dica sobre o código, considere '{dicas}'. E pense nos programadores que irão ler esse código no futuro, sendo o código: "
     else:
-        prompt_final = " Pense nos programadores que irão ler esse código no futuro, sendo: "
+        prompt_final = " Pense nos programadores que irão ler esse código no futuro, sendo o código: "
     
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     try:
